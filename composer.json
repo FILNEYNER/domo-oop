@@ -1,0 +1,22 @@
+{
+    "name": "filneyner/demo-oop",
+    "description": "description",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "filianov"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
+
